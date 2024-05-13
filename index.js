@@ -13,7 +13,7 @@ mongoose
   .then(() => console.log("Connected successfully"))
   .catch((err) => console.log(err));
 
-app.get("/hello", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
